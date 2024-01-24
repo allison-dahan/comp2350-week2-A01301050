@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 const dbConfig = {
 	host: "sql.freedb.tech",
 	user: "freedb_2351_main",
-	password: "ENM@WmPF!x*5gNg",
+	password: "qE%6DmaDpeKvTpj",
 	database: "freedb_comp2350-week2-A01301050",
 	multipleStatements: false
 };
@@ -26,7 +26,6 @@ async function printMySQLVersion() {
 	}
 	catch(err) {
 		console.log("Error getting version from MySQL");
-		console.log(err);
 		return false;
 	}
 }
