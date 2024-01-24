@@ -4,10 +4,10 @@ const http = require('http');
 const port = process.env.PORT || 3000;
 
 const dbConfig = {
-	host: "host",
-	user: "user",
-	password: "password",
-	database: "database",
+	host: "sql.freedb.tech",
+	user: "freedb_2351_main",
+	password: "ENM@WmPF!x*5gNG",
+	database: "freedb_comp2350-week2-A01301050",
 	multipleStatements: false
 };
 
