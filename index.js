@@ -31,9 +31,9 @@ async function printMySQLVersion() {
 }
 
 
-http.createServer(function(req, res) {
+http.createServer(async function(req, res) {
 	console.log("page hit");
-	const success = printMySQLVersion();
+	const success = await printMySQLVersion();
 	
 	if (success) {
 		//Send an HTTP Status code of 200 for success!
