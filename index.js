@@ -8,7 +8,8 @@ const dbConfig = {
 	user: "freedb_2351_main",
 	password: "ENM@WmPF!x*5gNG",
 	database: "freedb_comp2350-week2-A01301050",
-	multipleStatements: false
+	multipleStatements: false,
+	reconnect: true
 };
 
 var database = mysql.createPool(dbConfig);
